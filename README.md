@@ -309,4 +309,6 @@ Trackoid will correctly translate dates for you (hopefully) if you pass a date t
 
 
 # Revision History
+
+  0.1.1 - Corrected license.
   0.1.0 - Complete rewrite and fixes of the original trackoid gem to work with Mongoid 4.0.1
