@@ -4,7 +4,7 @@ $:.push File.expand_path("../lib", __FILE__)
 require "trackoid/version"
 
 Gem::Specification.new do |s|
-  s.name = "trackoid_4"
+  s.name = "trackoid_mongoid4"
   s.version = Trackoid::VERSION
   s.platform = Gem::Platform::RUBY
   s.authors = ["David Krett"]
@@ -18,8 +18,8 @@ Gem::Specification.new do |s|
   s.test_files = `git ls-files -- {test,spec,features}/*`.split("\n")
   s.executables = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
 
-  s.add_dependency('mongoid', '~> 4.0.1')
-  s.add_dependency 'rake'
-  s.add_development_dependency 'rspec'
-  s.add_development_dependency 'mocha'
+  s.add_runtime_dependency 'mongoid', '~> 4.0'
+  s.add_runtime_dependency 'rake', '~> 0'
+  s.add_development_dependency 'rspec','~> 3.0'
+  s.add_development_dependency 'mocha', '~> 0'
 end
