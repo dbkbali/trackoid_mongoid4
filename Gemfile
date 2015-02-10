@@ -6,6 +6,6 @@ source "http://rubygems.org"
 gemspec
 
 gem "mongoid", "~> 4.0.1"
-gem 'byebug'
-gem 'pry-byebug'
+#gem 'byebug'
+#gem 'pry-byebug'
 
