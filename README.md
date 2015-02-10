@@ -2,14 +2,13 @@
 
 > Trackoid is an analytics tracking system made specifically for MongoDB using Mongoid as ORM this gem is forked from the [Trackoid Gem](https://github/twixter/trackoid) and has been updated to work with mongoid 4. Many thanks to @twoixter who created the original Trackoid gem for Mongoid 3.
 
-[![Build Status](https://travis-ci.org/twoixter/trackoid.png)](https://travis-ci.org/twoixter/trackoid)
+[![Build Status](https://travis-ci.org/dbkbali/trackoid_mongoid4.png)](https://travis-ci.org/dbkbali/trackoid_mongoid4)
 
-## IMPORTANT upgrade information
 
 
 # Requirements
 
-Trackoid requires Mongoid, which obviously in turn requires MongoDB. Although you can only use Trackoid in Rails projects using Mongoid, it can easily be ported to MongoMapper or other ORM. You can also port it to work directly using MongoDB this gem has Mongoid 4.0.1 as a dependency.
+Trackoid requires Mongoid version 4 or above, which obviously in turn requires MongoDB.
 
 Please feel free to fork and port to other libraries. However, Trackoid really requires MongoDB since it is build from scratch to take advantage of several MongoDB features (please let me know if you dare enough to port Trackoid into CouchDB or similar, I will be glad to know).
 
