@@ -4,7 +4,11 @@
 
 [![Build Status](https://travis-ci.org/dbkbali/trackoid_mongoid4.png)](https://travis-ci.org/dbkbali/trackoid_mongoid4)
 
+# Installation
 
+Add gem 'trackoid_mongoid4'
+
+to your gem file and bundle
 
 # Requirements
 

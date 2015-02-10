@@ -5,7 +5,7 @@ source "http://rubygems.org"
 # development dependencies will be added by default to the :development group.
 gemspec
 
-gem "mongoid", "~> 4.0.1"
+gem "mongoid", "~> 4.0"
 gem 'byebug'
 gem 'pry-byebug'
 

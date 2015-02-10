@@ -1,6 +1,6 @@
 # encoding: utf-8
 
-require 'trackoid/version'
+require 'trackoid_mongoid4/version'
 
 require 'mongoid/tracking'
 require 'mongoid/tracking/errors'
