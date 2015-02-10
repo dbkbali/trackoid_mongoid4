@@ -21,3 +21,4 @@ Gemfile.lock
 
 ## PROJECT::SPECIFIC
 trackoid_mongoid4-0.1.0.gem
+*.gem
